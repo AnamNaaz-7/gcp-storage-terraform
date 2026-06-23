@@ -10,16 +10,16 @@ module "gcs_buckets" {
   project_id = var.project_id
 
   names  = ["first", "second"]
-  prefix = "my-storage-2026"   # must be unique
+  prefix = "my-storage-buck-2026"   # must be unique
 
   set_admin_roles = true
-  admins = ["user:anjlikanaujiya02@gmail.com"]
+  admins = ["user:anamnaaz607@gmail.com"]
 
   versioning = {
     first = true
   }
 
   bucket_admins = {
-    second = "user:anjlikanaujiya02@gmail.com"
+    second = "user:anamnaaz607@gmail.com"
   }
 }
